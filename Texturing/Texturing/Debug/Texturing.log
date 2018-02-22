@@ -1,0 +1,30 @@
+﻿Build started 06-Sep-17 6:49:32 PM.
+     1>Project "E:\Zubair\Courses\Computer Graphics\Projects\Texturing\Texturing\Texturing.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Texturing.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ex.cpp
+         ex.cpp
+     1>e:\zubair\courses\computer graphics\projects\texturing\texturing\rgba.h(381): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\texturing\texturing\rgba.h(401): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\texturing\texturing\rgba.h(483): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\texturing\texturing\rgba.h(503): warning C4101: 'c' : unreferenced local variable
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Texturing.exe.embed.manifest.res" Debug\Texturing_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Zubair\Courses\Computer Graphics\Projects\Texturing\Debug\Texturing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Texturing.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Zubair\Courses\Computer Graphics\Projects\Texturing\Debug\Texturing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Zubair\Courses\Computer Graphics\Projects\Texturing\Debug\Texturing.lib" /MACHINE:X86 Debug\Texturing.exe.embed.manifest.res
+         Debug\ex.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Texturing.exe.embed.manifest" /manifest Debug\Texturing.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Texturing.vcxproj -> E:\Zubair\Courses\Computer Graphics\Projects\Texturing\Debug\Texturing.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Texturing.unsuccessfulbuild".
+         Touching "Debug\Texturing.lastbuildstate".
+     1>Done Building Project "E:\Zubair\Courses\Computer Graphics\Projects\Texturing\Texturing\Texturing.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.68

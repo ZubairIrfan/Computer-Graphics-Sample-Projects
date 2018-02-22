@@ -1,0 +1,32 @@
+﻿Build started 28-Sep-17 12:26:00 PM.
+     1>Project "E:\Zubair\Courses\Computer Graphics\Projects\Crop_tool\Crop_tool\Crop_tool.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Crop_tool.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt crop.cpp
+         crop.cpp
+     1>e:\zubair\courses\computer graphics\projects\crop_tool\crop_tool\rgba.h(351): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\crop_tool\crop_tool\rgba.h(371): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\crop_tool\crop_tool\rgba.h(453): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\crop_tool\crop_tool\rgba.h(473): warning C4101: 'c' : unreferenced local variable
+     1>e:\zubair\courses\computer graphics\projects\crop_tool\crop_tool\crop.cpp(51): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\zubair\courses\computer graphics\projects\crop_tool\crop_tool\crop.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Zubair\Courses\Computer Graphics\Projects\Crop_tool\Debug\Crop_tool.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Crop_tool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Zubair\Courses\Computer Graphics\Projects\Crop_tool\Debug\Crop_tool.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Zubair\Courses\Computer Graphics\Projects\Crop_tool\Debug\Crop_tool.lib" /MACHINE:X86 Debug\Crop_tool.exe.embed.manifest.res
+         Debug\crop.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Crop_tool.exe.embed.manifest" /manifest Debug\Crop_tool.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Crop_tool.vcxproj -> E:\Zubair\Courses\Computer Graphics\Projects\Crop_tool\Debug\Crop_tool.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Crop_tool.unsuccessfulbuild".
+         Touching "Debug\Crop_tool.lastbuildstate".
+     1>Done Building Project "E:\Zubair\Courses\Computer Graphics\Projects\Crop_tool\Crop_tool\Crop_tool.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.14
